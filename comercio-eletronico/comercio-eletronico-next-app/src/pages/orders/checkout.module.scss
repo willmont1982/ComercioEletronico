@@ -1,0 +1,15 @@
+.checkout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 2em;
+
+  button[type="submit"] {
+    width: 20em;
+    margin: auto 0 2em 0;
+  }
+
+  table {
+    padding: 1em;
+  }
+}

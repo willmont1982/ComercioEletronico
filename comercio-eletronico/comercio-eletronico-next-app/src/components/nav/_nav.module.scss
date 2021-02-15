@@ -1,0 +1,49 @@
+@import "../../styles/theme";
+
+.nav {
+  align-items: center;
+  box-shadow: 0 4pt 24pt 0 rgba(#000, 0.1);
+  display: flex;
+  flex-direction: row;
+  grid-area: nav;
+
+  &_content {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &_footer {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 0 0 auto;
+    padding: 4pt;
+
+    button {
+      margin-left: 4pt;
+    }
+  }
+
+  &_header {
+    align-items: center;
+    display: flex;
+    margin: 2pt 8pt;
+
+    img {
+      height: 2em;
+    }
+  }
+
+  &_item {
+    margin: 0 1em;
+    padding: 8pt 0;
+
+    &__active {
+      box-shadow: inset 0 -2pt $color-1-hex;
+      color: $color-1-hex;
+      font-weight: 700;
+    }
+  }
+}

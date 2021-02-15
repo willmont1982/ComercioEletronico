@@ -1,0 +1,9 @@
+.layout {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "content"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}

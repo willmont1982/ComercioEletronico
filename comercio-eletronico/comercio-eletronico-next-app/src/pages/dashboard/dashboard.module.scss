@@ -1,0 +1,14 @@
+@import "../../styles/theme";
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+
+  button {
+    margin: 1em auto 0 2em;
+  }
+
+  table {
+    margin: 2em;
+  }
+}
